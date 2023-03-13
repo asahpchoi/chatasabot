@@ -1,0 +1,43 @@
+.main {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 1em;
+}
+
+.main > * {
+  margin-top: 1em;
+}
+pre {
+  margin: 1em;
+  padding: 1em;
+  white-space: pre-wrap;
+  font-family: Consolas;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+.topbar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.topbar Button {
+  margin: 1em;
+}
+
+.first-color {
+  background: #e0ffcd;
+}
+
+.second-color {
+  background: #fdffcd;
+}
+
+.third-color {
+  background: #ffebbb;
+}
+
+.fourth-color {
+  background: #ffcab0;
+}
